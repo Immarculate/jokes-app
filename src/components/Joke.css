@@ -1,0 +1,46 @@
+.joke {
+    background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    overflow: hidden;
+}
+.sticker-box {
+    position: absolute;
+    flex-direction: column;
+}
+.box {
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 350px;
+    height: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+h5 {
+    border: 1px solid black;
+}
+.next-btn {
+    margin-top: 30px;
+}
+button:hover {
+    background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+   }
+.content {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+
